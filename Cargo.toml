@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "example",
+    "scanner-syn",
+    "mermaid-markdown-api",
+]
