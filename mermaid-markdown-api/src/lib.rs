@@ -309,39 +309,39 @@ mod tests {
      
     }
 
-    // #[test]
-    // fn it_creates_a_flag_with_dashedline_x() {
-    //     // Instantiate the flow chart
-    //     let mut flow_chart = FlowChart::new(FlowDirection::TD);
+    #[test]
+    fn it_creates_a_flag_with_dashedline_x() {
+        // Instantiate the flow chart
+        let mut flow_chart = FlowChart::new(FlowDirection::TD);
 
-    //     // Add the node to check afterwards
-    //     flow_chart.add_node("A", None, Shape::Flag, "inner text");
+        // Add the node to check afterwards
+        flow_chart.add_node("A", None, Shape::Flag, "inner text");
 
-    //     // Add the connection to check afterwards
-    //     flow_chart.add_connection(LineType::DashedLine, ArrowType::X);
+        // Add the connection to check afterwards
+        flow_chart.add_connection(LineType::DashedLine, ArrowType::X);
 
-    //     // Add the node to check afterwards
-    //     flow_chart.add_node("B", None, Shape::Hexagon, "inner text");
+        // Add the node to check afterwards
+        flow_chart.add_node("B", None, Shape::Hexagon, "inner text");
 
-    //     println!("{}", flow_chart.data);
+        println!("{}", flow_chart.data);
      
-    // }
+    }
 
-    // #[test]
-    // fn it_creates_a_hexagon_with_dashedline_arrow() {
-    //     // Instantiate the flow chart
-    //     let mut flow_chart = FlowChart::new(FlowDirection::TD);
+    #[test]
+    fn it_creates_a_hexagon_with_dashedline_arrow() {
+        // Instantiate the flow chart
+        let mut flow_chart = FlowChart::new(FlowDirection::TD);
 
-    //     // Add the node to check afterwards
-    //     flow_chart.add_node("A", None, Shape::Hexagon, "inner text");
+        // Add the node to check afterwards
+        flow_chart.add_node("A", None, Shape::Hexagon, "inner text");
 
-    //     // Add the connection to check afterwards
-    //     flow_chart.add_connection(LineType::DashedLine, ArrowType::Arrow);
+        // Add the connection to check afterwards
+        flow_chart.add_connection(LineType::DashedLine, ArrowType::Arrow);
 
-    //     // Add the node to check afterwards
-    //     flow_chart.add_node("B", None, Shape::Hexagon, "inner text");
+        // Add the node to check afterwards
+        flow_chart.add_node("B", None, Shape::Hexagon, "inner text");
 
-    //     println!("{}", flow_chart.data);
+        println!("{}", flow_chart.data);
      
-    // }
+    }
 }
